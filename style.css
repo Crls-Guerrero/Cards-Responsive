@@ -1,0 +1,42 @@
+/* PRACTICA */
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    position: relative;
+    height: 100vh;
+    background-color: #223  ;
+    
+}
+.container p{
+    text-align: center;
+    padding-top: 70px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+
+.column{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    justify-content: center;
+    background-color: transparent;     
+    z-index: 1; 
+    border: 1px aliceblue solid;
+}
+.img-container{    
+    width: 350px;
+    height: 270px;
+    border-radius: 15px;
+    border: 1px solid black ;
+    overflow: hidden; /* para que se mantenga dentro del cuadro */ /* scroll */
+    margin: 0 50px 30px;
+        
+}
+.a{
+    width: 100%;
+    height: 100%;
+}
